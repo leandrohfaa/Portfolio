@@ -312,6 +312,7 @@ body {
 }
 
 .section-subtitle h2 p {
+    margin: 0;
     display: inline-block;
     font-size: 3rem;
 }
@@ -347,13 +348,52 @@ body {
     max-width: 1000px; 
     margin: 0 auto; 
     padding: 10px; 
-    font-size: .8rem; 
+    font-size: .9rem; 
     line-height: 2; 
     text-align: justify; 
     color: #fff5f5cc; 
 }
 
+.box-about h4 p{
+    display: inline;
+    padding: 2px 4px;
+    color: var(--color-purple);
+    font-size: bold;
+    font-weight: 2rem;
+}
 
+.buttom-cta {
+    text-align: center; 
+    margin-top: 2rem; 
+}
+
+
+.buttom-cta button{
+    display: inline-block;
+    
+    width: 100%;
+
+    max-width: 172px;
+
+    padding: 10px;
+    margin-bottom: 4rem;
+
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    border-radius: 10px;
+
+    cursor: pointer;
+    border: none;
+}
+
+.buttom-cta button:hover {
+    background-color: #5f01ac; 
+    transform: scale(1.07); 
+}
+    
+/* Final da Segunda página */
 
 
 @keyframes written_text {
